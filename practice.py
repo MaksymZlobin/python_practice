@@ -1,7 +1,7 @@
 bardic_dice_max_value = 6
 
 
-def bia(dice_roll, goal=None):
+def bardic_inspiration_assistant(dice_roll, goal=None):
     """"D&D bardic inspiration dice assistant, that make you choose correct decision"""
     if dice_roll >= 17:
         print('No bardic inspiration dice needed')
@@ -14,5 +14,5 @@ def bia(dice_roll, goal=None):
         else:
             print("It's risky, dude!!!")
 
-bia(2)
+bardic_inspiration_assistant(2)
 
