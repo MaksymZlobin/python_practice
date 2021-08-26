@@ -1,3 +1,4 @@
+bardic_dice_max_value = 6
 
 
 def bia(dice_roll, goal=None):
@@ -6,7 +7,6 @@ def bia(dice_roll, goal=None):
         print('No bardic inspiration dice needed')
     else:
         if goal:
-            bardic_dice_max_value = 6
             if goal - dice_roll <= bardic_dice_max_value:
                 print('Use bardic inspiration dice')
             else:
@@ -14,5 +14,5 @@ def bia(dice_roll, goal=None):
         else:
             print("It's risky, dude!!!")
 
-bia(12, 6)
+bia(2)
 
