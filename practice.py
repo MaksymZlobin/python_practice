@@ -9,10 +9,8 @@ def bardic_inspiration_assistant(dice_roll, goal=None):
         if goal:
             if goal - dice_roll <= bardic_dice_max_value:
                 print('Use bardic inspiration dice')
-            else:
-                print('No bardic inspiration dice needed')
         else:
             print("It's risky, dude!!!")
 
-bardic_inspiration_assistant(2)
+bardic_inspiration_assistant(17)
 
